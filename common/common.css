@@ -267,7 +267,7 @@
 
 /* 阴影 */
 .shadow {
-	box-shadow: 00 15rpx #999999;
+	box-shadow: 0rpx 5rpx 15rpx #999999;
 }
 
 /* 固定位置 */
