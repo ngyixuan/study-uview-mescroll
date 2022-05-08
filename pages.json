@@ -4,10 +4,24 @@
 	},
 	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
 		{
-			"path": "pages/index/index",
+			"path": "pages/uview商城练习/index",
 			"style": {
 				"navigationBarTitleText": "uni-app",
 				"navigationStyle": "custom", // 隐藏系统导航栏
+				"navigationBarTextStyle": "white" // 状态栏字体为白色，只能为 white-白色，black-黑色 二选一
+			}
+		},
+		{
+			"path": "pages/mescroll官方tabs组件/index",
+			"style": {
+				"navigationBarTitleText": "mescroll-Tab",
+				"navigationBarTextStyle": "black" // 状态栏字体为白色，只能为 white-白色，black-黑色 二选一
+			}
+		},
+		{
+			"path": "pages/mescroll上拉分页加载/index",
+			"style": {
+				"navigationBarTitleText": "mescroll上拉分页加载",
 				"navigationBarTextStyle": "white" // 状态栏字体为白色，只能为 white-白色，black-黑色 二选一
 			}
 		}

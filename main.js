@@ -13,7 +13,11 @@ app.$mount()
 import uView from "uview-ui";
 Vue.use(uView);
 
-
+// 注册全局组件
+import MescrollBody from "./uni_modules/mescroll-uni/components/mescroll-body/mescroll-body.vue"
+import MescrollUni from "./uni_modules/mescroll-uni/components/mescroll-uni/mescroll-uni.vue"
+Vue.component('mescroll-body', MescrollBody)
+Vue.component('mescroll-uni', MescrollUni)
 // #ifdef VUE3
 import { createSSRApp } from 'vue'
 export function createApp() {

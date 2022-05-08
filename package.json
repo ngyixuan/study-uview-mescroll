@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "mescroll.js": "^1.4.2",
     "uview-ui": "^1.8.4"
   }
 }
